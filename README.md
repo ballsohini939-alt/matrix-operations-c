@@ -1,169 +1,133 @@
-# Matrix Operations in C
+<div align="center">
 
-A menu-driven C program that performs common matrix operations using 2D arrays and modular functions.
+# 🧮 Matrix Operations in C
 
-## 📌 Project Overview
+### A Menu-Driven Mathematical Toolkit
 
-This project was developed as part of my **CodeAlpha C Programming Internship**.
+A C programming project for performing fundamental matrix operations with dimension validation and an interactive console interface.
 
-The program allows users to perform:
+![Language](https://img.shields.io/badge/Language-C-A8B9CC?style=for-the-badge\&logo=c\&logoColor=white)
+![Compiler](https://img.shields.io/badge/Compiler-GCC-6C8EBF?style=for-the-badge\&logo=gnu\&logoColor=white)
+![Project Type](https://img.shields.io/badge/Project-Console_Application-8A63D2?style=for-the-badge)
 
-* Matrix Addition
-* Matrix Multiplication
-* Matrix Transpose
+</div>
 
-It also includes input validation and a menu-driven interface for easy interaction.
+---
+
+## 📌 About the Project
+
+**Matrix Operations** is a menu-driven C application that performs common mathematical operations on matrices.
+
+The project demonstrates how arrays, loops, functions, and conditional statements can be combined to solve mathematical problems. It also validates matrix dimensions to help prevent incompatible operations.
+
+This project was developed as part of my hands-on learning journey in C programming and problem-solving.
+
+---
 
 ## ✨ Features
 
-### 1. Matrix Addition
+* ➕ **Matrix Addition:** Adds two matrices with compatible dimensions.
+* ✖️ **Matrix Multiplication:** Multiplies matrices when the number of columns in the first matrix equals the number of rows in the second.
+* 🔄 **Matrix Transpose:** Converts rows into columns and columns into rows.
+* 🛡️ **Dimension Validation:** Checks dimensions before performing operations.
+* 📋 **Interactive Menu:** Lets users choose an operation through the console.
 
-Adds two matrices of the same dimensions.
+---
 
-### 2. Matrix Multiplication
+## 🧠 Concepts Demonstrated
 
-Multiplies two matrices when the number of columns in the first matrix equals the number of rows in the second matrix.
+| Concept                | Application                                  |
+| :--------------------- | :------------------------------------------- |
+| Two-dimensional arrays | Store and process matrix elements            |
+| Functions              | Organize operations into manageable parts    |
+| Loops                  | Traverse rows and columns                    |
+| Conditional statements | Control program flow and validate operations |
+| Input validation       | Check matrix dimensions before processing    |
 
-### 3. Matrix Transpose
+---
 
-Converts rows into columns and columns into rows.
+## 🛠️ Technology Stack
 
-### 4. Input Validation
+* **Language:** C
+* **Compiler:** GCC
+* **Interface:** Command-line / console
+* **Development environment:** Compatible with Windows and other GCC-supported platforms
 
-The program validates matrix dimensions and limits matrices to a maximum size of **10 × 10**.
+---
 
-### 5. Menu-Driven Interface
+## ⚙️ Getting Started
 
-Users can select operations from a simple interactive menu.
+### Prerequisites
 
-## 🛠️ Technologies Used
+Install a C compiler such as GCC and ensure it is available in your terminal.
 
-* C Programming
-* 2D Arrays
-* Functions
-* Loops
-* Conditional Statements
-* Input Validation
-
-## 📂 Project Structure
-
-```text
-CodeAlpha_MatrixOperations/
-│
-├── matrix_operations.c
-└── README.md
-```
-
-## ▶️ How to Run
-
-### 1. Compile the program
+### 1. Clone the repository
 
 ```bash
-gcc matrix_operations.c -o matrix_operations
+git clone https://github.com/ballsohini939-alt/matrix-operations-c.git
 ```
 
-### 2. Run the program
+### 2. Enter the project directory
 
-On Windows PowerShell:
+```bash
+cd matrix-operations-c
+```
+
+### 3. Compile the program
+
+If the source file is named `matrix_operations.c`, run:
+
+```bash
+gcc matrix_operations.c -o matrix_operations.exe
+```
+
+### 4. Run the program
+
+In Windows PowerShell:
 
 ```powershell
 .\matrix_operations.exe
 ```
 
-## 💻 Sample Menu
+**Note:** If your C source file has a different name, replace `matrix_operations.c` in the compilation command with its actual filename.
 
-```text
-===== MATRIX OPERATIONS =====
-1. Matrix Addition
-2. Matrix Multiplication
-3. Matrix Transpose
-4. Exit
-Enter your choice:
-```
+---
 
-## 📊 Example
+## 🧪 Example Use Cases
 
-### Matrix Addition
+The application can be used to practise:
 
-Input:
+* Adding matrices of compatible dimensions.
+* Multiplying matrices with valid dimensions.
+* Finding the transpose of a matrix.
+* Understanding why some matrix operations require specific dimensions.
 
-```text
-Matrix 1:
-1  2
-3  4
+---
 
-Matrix 2:
-5  6
-7  8
-```
+## 🚀 Future Improvements
 
-Output:
+Potential improvements include:
 
-```text
-Result of Addition:
-6   8
-10  12
-```
+* Support for dynamically allocated matrices.
+* More comprehensive input validation.
+* Improved display formatting for matrix output.
+* Additional matrix operations, such as determinant and inverse calculations.
 
-### Matrix Multiplication
-
-Input:
-
-```text
-Matrix 1:
-1  2
-3  4
-
-Matrix 2:
-5  6
-7  8
-```
-
-Output:
-
-```text
-Result of Multiplication:
-19  22
-43  50
-```
-
-### Matrix Transpose
-
-Input:
-
-```text
-1  2  3
-4  5  6
-```
-
-Output:
-
-```text
-1  4
-2  5
-3  6
-```
-
-## 🎯 Learning Objectives
-
-Through this project, I practiced:
-
-* Working with 2D arrays
-* Creating and using functions in C
-* Implementing matrix algorithms
-* Using nested loops
-* Applying input validation
-* Building menu-driven console applications
-* Compiling and testing C programs
+---
 
 ## 👩‍💻 Author
 
 **Sohini Ball**
+B.Tech Computer Science and Engineering Student
 
-B.Tech Computer Science & Engineering Student
+Interested in software development, programming fundamentals, and building practical projects.
 
-Asansol Engineering College
+**GitHub:** [@ballsohini939-alt](https://github.com/ballsohini939-alt)
 
-## 📌 Internship
+---
 
-Developed as part of the **CodeAlpha C Programming Internship**.
+<div align="center">
+
+*Learn · Build · Test · Improve*
+
+</div>
